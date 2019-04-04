@@ -1,0 +1,29 @@
+# Compiled python modules.
+*.pyc
+
+# Setuptools distribution folder.
+dist/
+build/
+data/
+
+# Python egg metadata, regenerated from source files by setuptools.
+*.egg-info
+
+# IDE files
+.idea
+
+# Jupyter
+notebooks/**/.ipynb_checkpoints/*
+
+# Lore local developement files
+.env
+logs/*
+tests/models/*
+
+# Ignore parquet files
+part-*.parquet
+
+# Ignore txt files
+*.txt
+
+
